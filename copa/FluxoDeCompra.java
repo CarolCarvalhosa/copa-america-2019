@@ -1,4 +1,4 @@
-package copa;
+package copa; //uso de pacotes
 //uso de interface java
 public interface FluxoDeCompra {
     public void categorias();

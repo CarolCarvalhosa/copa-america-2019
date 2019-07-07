@@ -1,4 +1,4 @@
-package copa.ingresso;
+package copa.ingresso; //uso de pacotes
 public class MeiaEntradaBrasileiro extends MeiaEntrada{ //heranca
     public MeiaEntradaBrasileiro(Comprador novoComprador) { //uso de metodo construtor
         super(novoComprador); //uso de super

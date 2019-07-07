@@ -1,4 +1,4 @@
-package copa.ingresso;
+package copa.ingresso; //uso de pacotes
 //uso de classe abstrata
 public abstract class Ingresso {
     final double VALORCATEGORIA1 = 890.00; //definindo constantes
