@@ -1,15 +1,8 @@
-package copa.ingresso;
+package copa.ingresso; //uso de pacotes
 public class Inteira extends Ingresso{ //heranca
     protected double valorDoIngresso; //modificador de acesso
     public Inteira (Comprador novoComprador){ //metodo construtor
-        setValorDoIngresso(novoComprador.getCategoria());
-    }
-    @Override //sobrescrita de metodo
-    public double getprecoIngresso() {
-        return this.valorDoIngresso;
-    }
-    public void setValorDoIngresso(int categoria) {
-        switch (categoria){
+        switch (novoComprador.getCategoria()){
             case 1:
                 this.valorDoIngresso = VALORCATEGORIA1;
                 break;
@@ -23,5 +16,9 @@ public class Inteira extends Ingresso{ //heranca
                 this.valorDoIngresso = VALORCATEGORIA4;
                 break;
         }
+    }
+    @Override //sobrescrita de metodo
+    public double getprecoIngresso() {
+        return this.valorDoIngresso;
     }
 }
