@@ -1,4 +1,4 @@
-package copa; //uso de pacotes
+package copa;
 import java.util.Scanner; //importacao de classe providas pela linguagem
 public class CopaAmerica2019 implements FluxoDeCompra { //uso de interface
     private static final int LOTACAOMAX = 69763; //definicao de constante
@@ -24,7 +24,6 @@ public class CopaAmerica2019 implements FluxoDeCompra { //uso de interface
             System.out.print("Insira identificacao da pessoa: ");
             identificacao = keyboard.nextLine(); //uso de classe providas pela linguagem
         }
-        keyboard.close();
         System.exit(0);
     }
     /*implementando a interface a partir daqui*/

@@ -1,4 +1,4 @@
-package copa.ingresso; //uso de pacotes
+package copa.ingresso;
 public class InteiraAtestado extends Inteira { //heranca
     public InteiraAtestado(Comprador novoComprador) { //metodo construtor
         super(novoComprador); //uso de super

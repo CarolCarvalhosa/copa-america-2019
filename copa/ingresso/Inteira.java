@@ -1,4 +1,4 @@
-package copa.ingresso; //uso de pacotes
+package copa.ingresso;
 public class Inteira extends Ingresso{ //heranca
     protected double valorDoIngresso; //modificador de acesso
     public Inteira (Comprador novoComprador){ //metodo construtor

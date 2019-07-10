@@ -1,4 +1,4 @@
-package copa.comprador; //uso de pacotes
+package copa.comprador;
 import java.util.Scanner; //importacao de classe providas pela linguagem
 public class Comprador {
     //uso de encapsulamento modificador private
